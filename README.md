@@ -1,5 +1,7 @@
 # Stock Chart Mod for TIBCO Spotfiree®
 
+<img src="assets/stock.png" width="60%"/>
+
 This visualization enables the visualization of candlestick and open-high-low-close chart (OHLC) of stock price data to illustrate movements in the price of a financial instrument over time, in combination with an optional trading volume histogram.
 
 ## Installation & Use
