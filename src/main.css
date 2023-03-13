@@ -1,0 +1,40 @@
+html, body, #mod-container {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+svg text {
+    cursor: pointer;
+}
+
+.icon-button {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    width: 31px;
+    cursor: pointer;
+    height: 31px;
+}
+
+.icon-button svg {
+    display: block;
+    width: 21px;
+    height: 21px;
+    fill: currentColor;
+}
+
+.hidden {
+    display: none;
+}
+
+.settings {
+    right: 0;
+    color: #ccc;
+    z-index: 9999;
+}
+
+.settings:hover {
+    color: #ddd;
+}
+

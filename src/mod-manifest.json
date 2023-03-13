@@ -1,0 +1,72 @@
+{
+    "apiVersion": "1.2",
+    "version": "1.1",
+    "name": "Stock Chart",
+    "id": "spotfire-mod-stock-chart",
+    "icon": "Icons-Stock_Chart_24px.svg",
+    "properties": [
+        {
+            "name": "chartType",
+            "type": "string",
+            "defaultValue": "candle"
+        },
+        {
+            "name": "showVolume",
+            "type": "string",
+            "defaultValue": "yes"
+        },
+        {
+            "name": "showLogScale",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
+    "dataViewDefinition": { 
+        "axes": [
+            {
+                "name": "Time",
+                "mode": "categorical",
+                "placement": "bottom",
+                "dataTypes": [{"allowDateTime":"true"}],
+                "allowMultipleMeasures" : "false",
+                "allowNonAggregatingMeasures": "true",
+                "dropTarget": {
+                    "icon": "XAxis3D",
+                    "description": "Use {0} on the mod's X-axis"
+                }
+            },
+            {
+                "name": "Open",
+                "mode": "continuous",
+                "placement": "none"
+            },
+            {
+                "name": "High",
+                "mode": "continuous",
+                "placement": "none"
+            },
+            {
+                "name": "Low",
+                "mode": "continuous",
+                "placement": "none"
+            },
+            {
+                "name": "Close",
+                "mode": "continuous",
+                "placement": "none"
+            }
+            ,
+            {
+                "name": "Volume",
+                "mode": "continuous",
+                "placement": "none"
+            }
+        ]
+    },
+    "files": [
+        "index.html",
+        "main.css",
+        "lightweight-charts.standalone.production.js",
+        "main.js"
+    ]
+}
