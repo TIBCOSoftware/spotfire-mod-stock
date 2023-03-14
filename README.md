@@ -6,6 +6,8 @@ This visualization enables the visualization of candlestick and open-high-low-cl
 
 ## Installation & Use
 
+[Download latest version](https://github.com/TIBCOSoftware/spotfire-mod-stock/releases)
+
 The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-stock/wiki) contains step-by-step instruction on how to install and use this Mod in TIBCO Spotfire®.
 
 ## Building the Project
