@@ -1,4 +1,4 @@
-# Stock Chart Mod for Spotfiree®
+# Stock Chart Mod for Spotfire®
 
 <img src="assets/stock.png" width="60%"/>
 
